@@ -43,4 +43,6 @@ return require('packer').startup(function(use)
     }
   }
 
+  use { "catppuccin/nvim", as = "catppuccin" }
+
 end)
