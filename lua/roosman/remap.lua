@@ -19,3 +19,5 @@ vim.keymap.set("n", "<leader>ct", ":tabclose<CR>", { noremap = true, silent = tr
 vim.keymap.set("n", "<leader>jt", ":tabnext<CR>", { noremap = true, silent = true }) -- Go to next tab
 vim.keymap.set("n", "<leader>kt", ":tabprev<CR>", { noremap = true, silent = true }) -- Go to previous tab
 
+-- Map Ctrl + c to exit terminal mode
+vim.keymap.set('t', '<C-c>', '<C-\\><C-n>', {noremap = true})
