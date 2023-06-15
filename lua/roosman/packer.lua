@@ -55,4 +55,5 @@ return require('packer').startup(function(use)
       requires = 'MunifTanjim/nui.nvim',
   }
 
+  use 'm4xshen/autoclose.nvim'
 end)
